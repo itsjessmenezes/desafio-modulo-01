@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  width: 100%;
+  margin-bottom: 54px;
+  padding-top: 64px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 60px;
+  height: 32px;
+}
+
+header img:hover {
+  cursor: pointer;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin-left: 43px;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+header li:hover {
+  text-decoration: overline;
+  cursor: pointer;
+}
+
+header li a {
+  text-decoration: none;
+}

@@ -1,0 +1,48 @@
+.container-paginacao {
+  width: 100%;
+  margin-top: 64px;
+  margin-bottom: 115px;
+}
+
+.container-paginacao .divisor {
+  width: 1110px;
+}
+
+.container-paginacao .divisor:first-of-type {
+  margin-bottom: 32px;
+}
+
+.container-paginacao .divisor:last-of-type {
+  margin-top: 32px;
+}
+
+.paginacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paginacao .left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginacao .left-side .arrow-left {
+  margin-right: 32px;
+}
+
+.paginacao .right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginacao .right-side .arrow-right {
+  margin-left: 32px;
+}
+
+.right-side:hover,
+.left-side:hover {
+  cursor: pointer;
+}

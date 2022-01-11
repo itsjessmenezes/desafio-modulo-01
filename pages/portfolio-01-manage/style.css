@@ -1,0 +1,80 @@
+header li:nth-child(2) {
+  color: var(--cyan);
+}
+
+.hero img {
+  width: 1110px;
+  margin-top: 94px;
+  margin-bottom: 115px;
+}
+
+p {
+  font-size: 11px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+section {
+  display: flex;
+  width: 1110px;
+  justify-content: space-between;
+}
+
+section .left-side {
+  width: 350px;
+}
+
+section .left-side .divisor {
+  width: 350px;
+}
+
+section .left-side .divisor:first-of-type {
+  margin-bottom: 48px;
+}
+
+.text-manage h2 {
+  margin-bottom: 29px;
+}
+
+.text-manage p:nth-child(2) {
+  margin-bottom: 53px;
+}
+
+.text-manage p:nth-child(3) {
+  color: var(--cyan);
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.text-manage p:nth-child(4) {
+  color: var(--cyan);
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.btn.secondary.visit {
+  width: 178px;
+  margin-bottom: 48px;
+  padding: 17px 60px;
+}
+
+section .right-side {
+  max-width: 635px;
+}
+
+section .right-side img {
+  width: 635px;
+}
+
+section .right-side img:first-of-type {
+  margin-bottom: 32px;
+}
+
+section .right-side h3 {
+  margin-bottom: 28px;
+}
+
+section .right-side p {
+  margin-bottom: 40px;
+}

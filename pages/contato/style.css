@@ -1,0 +1,86 @@
+.header-contact {
+  margin-bottom: 94px;
+}
+section {
+  display: flex;
+  margin: 48px 0px 48px 0px;
+  flex-direction: column;
+}
+
+.contact-info {
+  display: flex;
+  margin-bottom: 54px;
+  justify-content: space-between;
+}
+
+.text {
+  width: 635px;
+}
+
+.text p {
+  line-height: 30px;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media img {
+  margin-right: 16px;
+}
+
+.social-media img:hover {
+  cursor: pointer;
+}
+
+/*-----------------------*/
+
+section:last-of-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.data {
+  display: flex;
+  width: 635px;
+  flex-direction: column;
+}
+
+.data label {
+  color: var(--grayish-dark-blue);
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  opacity: 0.8;
+}
+
+.data input {
+  background: var(--light-gray);
+  height: 48px;
+  margin-bottom: 24px;
+  border: none;
+}
+
+.data input:last-of-type {
+  height: 96px;
+}
+
+.data input:focus {
+  border: 1px solid var(--grayish-dark-blue);
+}
+
+.btn.secondary.send {
+  background: var(--dark-blue);
+  width: 200px;
+  margin-bottom: 189px;
+  padding: 17px 24px;
+  color: var(--white);
+  border: none;
+}
+
+.btn.secondary.send:hover {
+  background: var(--cyan);
+}
